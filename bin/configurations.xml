@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cofigrations>
+  <!-- Soruce Database connection  -->
+  <sourceType>QMYSQL</sourceType>
+  <sourceHost>natshah-crawler-network.host</sourceHost>
+  <sourceName>natshahdb</sourceName>
+  <sourceUser>crawleru</sourceUser>
+  <sourcePassword>123123</sourcePassword>
+  <sourcePort>3306</sourcePort>
+  <sourcePrefix>emm_</sourcePrefix>
+  <sourceDomainsTableName>domains</sourceDomainsTableName>
+  <sourceURLsTableName>urls</sourceURLsTableName>
+  <emailsTableName>emails</emailsTableName>
+  <!-- Target Database connection -->
+  <targetType>QMYSQL</targetType>
+  <targetHost>natshah-sub-center.host</targetHost>
+  <targetName>sub_center_db</targetName>
+  <targetUser>archiveru</targetUser>
+  <targetPassword>123123</targetPassword>
+  <sourcePort>3306</sourcePort>
+  <targetPrefix>emm_</targetPrefix>
+  <targetDomainsTableName>domains</targetDomainsTableName>
+  <targetURLsTableName>urls</targetURLsTableName>
+  <targetEmailsTableName>emails</targetEmailsTableName>
+  <!-- For Timeing -->
+  <WAITE_TIME>60000</WAITE_TIME>
+  <PROGRESS_PAR_SHOW_TIME>5000</PROGRESS_PAR_SHOW_TIME>
+</cofigrations>
